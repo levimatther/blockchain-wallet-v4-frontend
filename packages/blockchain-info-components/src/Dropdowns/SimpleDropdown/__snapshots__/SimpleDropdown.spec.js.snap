@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SimpleDropdown component default renders correctly 1`] = `
+<styled.div
+  uppercase={true}
+>
+  <styled.ul
+    down={false}
+    toggled={false}
+  >
+    <styled.li
+      key="0"
+      onClick={[Function]}
+    >
+      test
+    </styled.li>
+  </styled.ul>
+  <styled.div
+    color="blue600"
+    onClick={[Function]}
+  >
+    <styled.div>
+      test
+    </styled.div>
+    <Styled(Icon)
+      name="chevron-down-large"
+      size="12px"
+    />
+  </styled.div>
+</styled.div>
+`;

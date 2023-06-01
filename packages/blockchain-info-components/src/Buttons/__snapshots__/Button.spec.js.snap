@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component default renders correctly 1`] = `
+<styled.button
+  backgroundColor="white"
+  bold={false}
+  borderColor="grey000"
+  capitalize={false}
+  color="grey800"
+  disabled={false}
+  fullwidth={false}
+  height="40px"
+  hoverBorderColor="white"
+  rounded={false}
+  size="14px"
+  uppercase={false}
+/>
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text component default renders correctly 1`] = `
+<styled.div
+  altFont={true}
+  capitalize={false}
+  color="grey700"
+  colorgrey000={true}
+  cursor="inherit"
+  italic={false}
+  lineHeight="inherit"
+  opacity={1}
+  size="16px"
+  uppercase={false}
+  weight={400}
+>
+  <span>
+    Hello World
+  </span>
+   
+</styled.div>
+`;

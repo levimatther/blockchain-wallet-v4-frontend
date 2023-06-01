@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Banner component type alert renders correctly 1`] = `
+<styled.div
+  color="blue600"
+>
+  <Icon
+    color="blue600"
+    cursor={false}
+    name="bell"
+    size="18px"
+    weight={400}
+  />
+  <Styled(Text)
+    color="blue600"
+    size="12px"
+    uppercase={false}
+    weight={500}
+  >
+    ALERT
+  </Styled(Text)>
+</styled.div>
+`;
+
+exports[`Banner component type caution renders correctly 1`] = `
+<styled.div
+  color="brand-yellow"
+  width="130%"
+>
+  <Icon
+    color="brand-yellow"
+    cursor={false}
+    name="alert-filled"
+    size="18px"
+    weight={400}
+  />
+  <Styled(Text)
+    color="brand-yellow"
+    size="12px"
+    uppercase={false}
+    weight={500}
+  >
+    ALERT
+  </Styled(Text)>
+</styled.div>
+`;
+
+exports[`Banner component type standard renders correctly 1`] = `
+<styled.div
+  color="blue600"
+>
+  <Styled(Text)
+    color="blue600"
+    size="12px"
+    uppercase={false}
+    weight={500}
+  >
+    STANDARD
+  </Styled(Text)>
+</styled.div>
+`;
+
+exports[`Banner component type success renders correctly 1`] = `
+<styled.div
+  color="success"
+>
+  <Icon
+    color="success"
+    cursor={false}
+    name="checkmark-in-circle"
+    size="18px"
+    weight={400}
+  />
+  <Styled(Text)
+    color="success"
+    size="12px"
+    uppercase={false}
+    weight={500}
+  >
+    SUCCESS
+  </Styled(Text)>
+</styled.div>
+`;
+
+exports[`Banner component type warning renders correctly 1`] = `
+<styled.div
+  color="error"
+>
+  <Icon
+    color="error"
+    cursor={false}
+    name="alert-filled"
+    size="18px"
+    weight={400}
+  />
+  <Styled(Text)
+    color="error"
+    size="12px"
+    uppercase={true}
+    weight={500}
+  >
+    WARNING
+  </Styled(Text)>
+</styled.div>
+`;

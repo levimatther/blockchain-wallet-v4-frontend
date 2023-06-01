@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip component renders correctly 1`] = `
+<Styled(ReactTooltip)
+  delayHide={250}
+  effect="solid"
+  id="tip"
+>
+  <span>
+    Tool Text
+  </span>
+</Styled(ReactTooltip)>
+`;

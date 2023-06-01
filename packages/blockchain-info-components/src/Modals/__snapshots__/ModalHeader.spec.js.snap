@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalHeader component default renders correctly 1`] = `
+<styled.div
+  closeButton={true}
+  icon="x"
+  onClose={[Function]}
+>
+  <styled.div>
+    <Styled(Icon)
+      color="grey700"
+      name="x"
+      size="28px"
+      weight={400}
+    />
+    <Text
+      altFont={false}
+      capitalize={true}
+      className="headerText"
+      color="grey700"
+      cursor="inherit"
+      data-e2e="modalHeaderText"
+      italic={false}
+      lineHeight="inherit"
+      opacity={1}
+      size="20px"
+      uppercase={false}
+      weight={400}
+    />
+  </styled.div>
+  <Icon
+    color="grey700"
+    cursor={true}
+    data-e2e="modalCloseButton"
+    name="close"
+    onClick={[Function]}
+    size="24px"
+    weight={400}
+  />
+</styled.div>
+`;
